@@ -1,5 +1,5 @@
 body {
-    background-image: url(wallpaper3.jpg);
+    background-image: url(kepek/wallpaper3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     size: 900px;
@@ -29,4 +29,102 @@ h1 {
   h1:hover {
     width: 1000px;
     height: 1000px;
+  }
+
+  #navbar-drive {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-variant: small-caps;
+  }
+
+  .navbar {
+    z-index: 1;
+  }
+
+  #buttons {
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    padding: 5px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    transition: all 0.3s ease;
+  }
+
+  .button1 {
+    top: 5px;
+    left: 400px;
+    background: linear-gradient(135deg, #f7c948, #fadb5f);
+    box-shadow: 0 0 12px rgba(250, 219, 95, 0.6);
+  }
+
+  .button2 {
+    top: 5px;
+    left: 525px;
+    background: linear-gradient(135deg, #e63946, #ff6b6b);
+    box-shadow: 0 0 12px rgba(255, 107, 107, 0.4);
+  }
+
+  .button3 {
+    top: 5px;
+    left: 650px;
+    background: linear-gradient(135deg, #2563eb, #3b82f6);
+    box-shadow: 0 0 12px rgba(59, 130, 246, 0.4);
+  }
+
+  .button4 {
+    top: 5px;
+    left: 775px;
+    background: linear-gradient(135deg, #10b981, #34d399);
+    box-shadow: 0 0 12px rgba(52, 211, 153, 0.6);
+  }
+
+  .button5 {
+    top: 5px;
+    left: 900px;
+    background: linear-gradient(135deg, #8b5cf6, #a78bfa);
+    box-shadow: 0 0 12px rgba(167, 139, 250, 0.4);
+  }
+
+  .button1:hover {
+    transform: translateY(-3px);
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(250, 219, 95, 0.8);
+    background: linear-gradient(135deg, #fadb5f, #f7c948);
+  }
+
+  .button2:hover {
+    transform: translateY(-3px);
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 107, 107, 0.8);
+    background: linear-gradient(135deg, #ff6b6b #e63946);
+  }
+
+  .button3:hover {
+    transform: translateY(-3px);
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(59, 130, 246, 0.8);
+    background: linear-gradient(135deg, #3b82f6, #2563eb);
+  }
+
+  .button4:hover {
+    transform: translateY(-3px);
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(52, 211, 153, 0.8);
+    background: linear-gradient(135deg, #34d399, #10b981);
+  }
+
+  .button5:hover {
+    transform: translateY(-3px);
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(167, 139, 250, 0.8);
+    background: linear-gradient(135deg, #a78bfa, #8b5cf6);
+  }
+  
+
+  .gomb-ikon {
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
   }
