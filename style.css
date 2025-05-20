@@ -8,7 +8,7 @@ body {
 
 .middle {
     top: 8px;
-    left: 16px;
+    left: 10px;
     text-align: center;
     transition: width 2s;
 }
@@ -124,6 +124,66 @@ h1 {
   
 
   .gomb-ikon {
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
+  }
+
+  /*Első oldal*/
+
+  h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 300%;
+    font-weight: 1000;
+    text-align: center;
+    margin-top: 90px;
+    color: white;
+    text-shadow: 5px 5px 15px black;
+  }
+
+  .ferrari {
+    margin-top: -20px;
+
+  }
+
+  .kép1 {
+    height: 300px;
+    position: absolute;
+    width: 600px;
+    margin-top: -500px;
+    border-radius: 20px;
+    left: 60%;
+    border: 5px solid white;
+
+  }
+
+  .kép2 {
+    height: 280px;
+    width: 480px;
+    margin-top: -300px;
+    margin-bottom: -50px;
+    left: 37%;
+    border-radius: 30px;
+    position: absolute;
+    border: 5px solid white;
+  }
+
+
+
+   .button1v:hover {
+    transform: translateY(-3px);
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(250, 219, 95, 0.8);
+    background: linear-gradient(135deg, #fadb5f, #f7c948); }
+
+     .button1v {
+    top: 5px;
+    left: 400px;
+    background: linear-gradient(135deg, #f7c948, #fadb5f);
+    box-shadow: 0 0 12px rgba(250, 219, 95, 0.6);
+  }
+
+    .gomb-vissza {
     width: 35px;
     height: 35px;
     vertical-align: middle;
