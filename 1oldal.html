@@ -11,47 +11,44 @@
 <body>
      <nav class="navbar navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#" id="navbar-drive">Drive Line</a>
+          <a class="navbar-brand" href="auto.html" id="navbar-drive">Drive Line</a>
+
           <ul class="nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">
-                <button onclick="window.location.href='auto.html' " class="button1v" id="buttons">
-                  <img src="kepek/gomb-ikon.png" alt="ikon" class="gomb-vissza">
-                </button>
-              </a>
+              <button onclick="window.location.href='auto.html' " class="button1v" id="buttons1">
+                <img src="kepek/gomb-ikon.png" alt="ikon" class="gomb-vissza">
+              </button>
             </li>
+          </ul>
             <ul class="nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
-                  <button onclick="window.location.href= '2oldal.html' " class="button2" id="buttons">
-                    <img src="kepek/gomb-ikon.png" alt="ikon" class="gomb-ikon">
-                  </button>
-                </a>
+                <button onclick="window.location.href= '2oldal.html' " class="button2" id="buttons2">
+                  <img src="kepek/gomb-ikon.png" alt="ikon" class="gomb-ikon">
+                </button>
               </li>
+            </ul>
               <ul class="nav">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">
-                    <button onclick="window.location.href= '3oldal.html' " class="button3" id="buttons">
-                      <img src="kepek/gomb-ikon.png" alt="ikon" class="gomb-ikon">
-                    </button>
-                  </a>
+                  <button onclick="window.location.href= '3oldal.html' " class="button3" id="buttons3">
+                    <img src="kepek/gomb-ikon.png" alt="ikon" class="gomb-ikon">
+                  </button>
                 </li>
+              </ul>
                 <ul class="nav">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">
-                      <button onclick="window.location.href= '4oldal.html' " class="button4" id="buttons">
-                        <img src="kepek/gomb-ikon.png" alt="ikon" class="gomb-ikon">
-                      </button>
-                    </a>
+                    <button onclick="window.location.href= '4oldal.html' " class="button4" id="buttons4">
+                      <img src="kepek/gomb-ikon.png" alt="ikon" class="gomb-ikon">
+                    </button>
                   </li>
+                </ul>
                   <ul class="nav">
                     <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">
-                        <button onclick="window.location.href= '5oldal.html' " class="button5" id="buttons">
-                          <img src="kepek/gomb-ikon.png" alt="ikon" class="gomb-ikon">
-                        </button>
-                      </a>
+                      <button onclick="window.location.href= '5oldal.html' " class="button5" id="buttons5">
+                        <img src="kepek/gomb-ikon.png" alt="ikon" class="gomb-ikon">
+                      </button>
                     </li>
+                  </ul>
+
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -63,22 +60,19 @@
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Főoldal</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
+                  <a class="nav-link active" aria-current="page" href="auto.html">Főoldal</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Több
                   </a>
                   <ul class="dropdown-menu dropdown-menu-dark">
-                    <li><a class="dropdown-item" href="#">Gyártók</a></li>
-                    <li><a class="dropdown-item" href="#">Modellek</a></li>
+                    <li><a class="dropdown-item" href="gyártók.html">Gyártók</a></li>
+                    <li><a class="dropdown-item" href="modellek.html">Modellek</a></li>
                     <li>
                       <hr class="dropdown-divider">
                     </li>
-                    <li><a class="dropdown-item" href="#">Forrás </a></li>
+                    <li><a class="dropdown-item" href="forrás.html">Forrás </a></li>
                   </ul>
                 </li>
               </ul>
@@ -89,7 +83,7 @@
       </nav>
     <header>
         
-      </button>
+      
     </header>
     <h2>Ferrari</h2>
     <section>
@@ -98,7 +92,7 @@
 <p>A Ferrari Roma a márka belépő szintű kupéja, de ez nem jelent kompromisszumot sem teljesítményben, sem stílusban.</p>
 
 <ul class="ferrari">
-    <b>Főbb jellemzők:</b>
+  <li>Főbb jellemzők:</li>
     <li>Motor:
         <ul>
             <li>3.9 literes V8 turbómotor</li>
@@ -106,10 +100,12 @@
             <li>760 Nm nyomaték</li>
         </ul>
     </li>
-    <li>Gyorsulás és sebesség:</li>
+
+    <li>Gyorsulás és sebesség:
         <ul>
             <li>0–100 km/h: kb. 3,4 másodperc</li>
         </ul>
+      </li>
     <li>Végsebesség: >320 km/h</li>
     <li>Váltó:</li>
         <ul>
@@ -130,7 +126,7 @@
     <li>Vezetési élmény:</li>
         <ul>
             <li>GT-komfort, de sportos viselkedés</li>
-            <li>Tökéletes hétköznapi használatra és élményvezetésre egyaránt</li>
+            <li>Tökéletes hétköznapi használatra és élményvezetésre egyaránt</li> /*li athelyz*/
         </ul>
     <li>Ár:</li>
         <ul>

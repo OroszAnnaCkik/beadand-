@@ -2,7 +2,6 @@ body {
     background-image: url(kepek/wallpaper3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    size: 900px;
 }
 
 
@@ -40,7 +39,55 @@ h1 {
     z-index: 1;
   }
 
-  #buttons {
+  #buttons1 {
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    padding: 5px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    z-index: 2;
+    transition: all 0.3s ease;
+    position: fixed;
+  }
+
+  #buttons2 {
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    padding: 5px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    z-index: 2;
+    transition: all 0.3s ease;
+    position: fixed;
+  }
+
+  #buttons3 {
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    padding: 5px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    z-index: 2;
+    transition: all 0.3s ease;
+    position: fixed;
+  }
+
+  #buttons4 {
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    padding: 5px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    z-index: 2;
+    transition: all 0.3s ease;
+    position: fixed;
+  }
+
+  #buttons5 {
     border: none;
     display: inline-flex;
     align-items: center;
@@ -98,7 +145,7 @@ h1 {
     transform: translateY(-3px);
     transform: scale(1.05);
     box-shadow: 0 0 20px rgba(255, 107, 107, 0.8);
-    background: linear-gradient(135deg, #ff6b6b #e63946);
+    background: linear-gradient(135deg, #ff6b6b, #e63946);
   }
 
   .button3:hover {
