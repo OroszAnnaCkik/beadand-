@@ -291,17 +291,155 @@ h1 {
 
   /*Második oldal*/
 
+  h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 300%;
+    font-weight: 1000;
+    text-align: center;
+    margin-top: 90px;
+    color: white;
+    text-shadow: 5px 5px 15px black;
+  }
 
+  .alfa {
+    margin-top: -20px;
+  }  
+
+  .kép3 {
+    height: 300px;
+    position: absolute;
+    width: 600px;
+    margin-top: -500px;
+    border-radius: 20px;
+    left: 60%;
+    border: 5px solid white;
+
+  }
+
+  .kép4 {
+    height: 280px;
+    width: 480px;
+    margin-top: -300px;
+    margin-bottom: -50px;
+    left: 37%;
+    border-radius: 30px;
+    position: absolute;
+    border: 5px solid white;
+  }
 
 
   /*Harmadik oldal*/
 
+  h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 300%;
+    font-weight: 1000;
+    text-align: center;
+    margin-top: 90px;
+    color: white;
+    text-shadow: 5px 5px 15px black;
+  }
 
+  .lamborghini {
+    margin-top: -20px;
+  }  
+
+  .kép5 {
+    height: 300px;
+    position: absolute;
+    width: 600px;
+    margin-top: -500px;
+    border-radius: 20px;
+    left: 60%;
+    border: 5px solid white;
+
+  }
+
+  .kép6 {
+    height: 280px;
+    width: 480px;
+    margin-top: -300px;
+    margin-bottom: -50px;
+    left: 37%;
+    border-radius: 30px;
+    position: absolute;
+    border: 5px solid white;
+  }
   /*Negyedik oldal*/
+
+    h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 300%;
+    font-weight: 1000;
+    text-align: center;
+    margin-top: 90px;
+    color: white;
+    text-shadow: 5px 5px 15px black;
+  }
+
+  .mclaren {
+    margin-top: -20px;
+  }  
+
+  .kép7 {
+    height: 300px;
+    position: absolute;
+    width: 600px;
+    margin-top: -500px;
+    border-radius: 20px;
+    left: 60%;
+    border: 5px solid white;
+
+  }
+
+  .kép8 {
+    height: 280px;
+    width: 480px;
+    margin-top: -300px;
+    margin-bottom: -50px;
+    left: 37%;
+    border-radius: 30px;
+    position: absolute;
+    border: 5px solid white;
+  }
 
   /*Ötödik oldal*/
 
+  h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 300%;
+    font-weight: 1000;
+    text-align: center;
+    margin-top: 90px;
+    color: white;
+    text-shadow: 5px 5px 15px black;
+  }
 
+  .porsche {
+    margin-top: -20px;
+  }  
+
+  .kép9 {
+    height: 300px;
+    position: absolute;
+    width: 600px;
+    margin-top: -500px;
+    border-radius: 20px;
+    left: 60%;
+    border: 5px solid white;
+
+  }
+
+  .kép10 {
+    height: 280px;
+    width: 480px;
+    margin-top: -300px;
+    margin-bottom: -50px;
+    left: 37%;
+    border-radius: 30px;
+    position: absolute;
+    border: 5px solid white;
+  }
   /*Gyártók*/
 
 .háttér {
