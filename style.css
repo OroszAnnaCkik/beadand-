@@ -30,6 +30,22 @@ h1 {
     height: 1000px;
   }
 
+.beszoveg{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 300%;
+  font-weight: 1000;
+  text-align: center;
+  margin-top: 90px;
+  color: white;
+  text-shadow: 5px 5px 15px black;
+}
+
+.bemutato {
+  text-align: center;
+
+}
+
+
   #navbar-drive {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-variant: small-caps;
