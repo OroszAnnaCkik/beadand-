@@ -264,7 +264,7 @@ h1 {
     border-radius: 20px;
     left: 60%;
     border: 5px solid white;
-
+    cursor: pointer;
   }
 
   .kép2 {
@@ -276,6 +276,7 @@ h1 {
     border-radius: 30px;
     position: absolute;
     border: 5px solid white;
+    cursor: pointer;
   }
 
 
@@ -323,7 +324,7 @@ h1 {
     border-radius: 20px;
     left: 60%;
     border: 5px solid white;
-
+    cursor: pointer;
   }
 
   .kép4 {
@@ -335,6 +336,7 @@ h1 {
     border-radius: 30px;
     position: absolute;
     border: 5px solid white;
+    cursor: pointer;
   }
 
 
@@ -362,7 +364,7 @@ h1 {
     border-radius: 20px;
     left: 60%;
     border: 5px solid white;
-
+    cursor: pointer;
   }
 
   .kép6 {
@@ -374,7 +376,9 @@ h1 {
     border-radius: 30px;
     position: absolute;
     border: 5px solid white;
+    cursor: pointer;
   }
+
   /*Negyedik oldal*/
 
     h2 {
@@ -399,7 +403,7 @@ h1 {
     border-radius: 20px;
     left: 60%;
     border: 5px solid white;
-
+    cursor: pointer;
   }
 
   .kép8 {
@@ -411,6 +415,7 @@ h1 {
     border-radius: 30px;
     position: absolute;
     border: 5px solid white;
+    cursor: pointer;
   }
 
   /*Ötödik oldal*/
@@ -437,7 +442,7 @@ h1 {
     border-radius: 20px;
     left: 60%;
     border: 5px solid white;
-
+    cursor: pointer;
   }
 
   .kép10 {
@@ -449,6 +454,7 @@ h1 {
     border-radius: 30px;
     position: absolute;
     border: 5px solid white;
+    cursor: pointer;
   }
 
 .háttér {
@@ -466,6 +472,8 @@ h1 {
   width: 100%;
 }
 
+/*Képek nagyítása*/
+
 #ferrari1 {
   margin: auto;
   height: 100%;
@@ -480,6 +488,54 @@ h1 {
 }
 
 #ferrari2 {
+  margin: auto;
+  height: 100%;
+  width: 100%;
+}
+
+#alfa1 {
+  margin: auto;
+  height: 100%;
+  width: 100%;
+}
+
+#alfa2 {
+  margin: auto;
+  height: 100%;
+  width: 100%;
+}
+
+#lamborghini1 {
+  margin: auto;
+  height: 100%;
+  width: 100%;
+}
+
+#lamborghini2 {
+  margin: auto;
+  height: 100%;
+  width: 100%;
+}
+
+#mclaren1 {
+  margin: auto;
+  height: 100%;
+  width: 100%;
+}
+
+#mclaren2 {
+  margin: auto;
+  height: 100%;
+  width: 100%;
+}
+
+#porsche1 {
+  margin: auto;
+  height: 100%;
+  width: 100%;
+}
+
+#porsche2 {
   margin: auto;
   height: 100%;
   width: 100%;
