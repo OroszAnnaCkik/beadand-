@@ -1,7 +1,13 @@
-body {
+.háttérbody {
     background-image: url(kepek/wallpaper3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.háttérbody2 {
+  background-image: url(https://wallpapercave.com/wp/wp12535963.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
@@ -88,6 +94,8 @@ h1 {
   .navbar {
     z-index: 1;
   }
+
+  /*Gombok*/
 
   #buttons1 {
     border: none;
@@ -458,4 +466,28 @@ h1 {
 .háttér3 {
   height: 100%;
   width: 100%;
+}
+
+#ferrari1 {
+  margin: auto;
+  height: 100%;
+  width: 100%;
+}
+
+.modal-content {
+  width: 225%;
+  height: 225%;
+  left: -55%;
+  margin-top: 20%;
+}
+
+#ferrari2 {
+  margin: auto;
+  height: 100%;
+  width: 100%;
+}
+
+table {
+  margin: auto;
+  margin-top: 20%;
 }
