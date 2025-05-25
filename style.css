@@ -83,11 +83,98 @@ h1 {
   height: 400px;
   position: absolute;
   width: 630px;
-  margin-top: -600px;
+  margin-top: -650px;
   border-radius: 20px;
   left: 60%;
 
 }
+
+.credit {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: cursive;
+  font-size: medium;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  text-shadow: 5px 5px 15px black;
+}
+
+.credit1 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: cursive;
+  font-size: medium;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  text-shadow: 5px 5px 15px black;
+}
+
+.decor {
+  mix-blend-mode: multiply;
+  height: 600px;
+  position: absolute;
+  width: 630px;
+  margin-top: -1500px;
+  border-radius: 20px;
+  left: 60%;
+}
+
+.decor2 {
+  mix-blend-mode: multiply;
+  height: 600px;
+  position: absolute;
+  width: 500px;
+  margin-top: -1300px;
+  border-radius: 20px;
+  left: 80%;
+}
+
+.decor4 {
+  mix-blend-mode: multiply;
+  height: 900px;
+  position: absolute;
+  width: 500px;
+  margin-top: -1300px;
+  border-radius: 20px;
+  left: -5%;
+
+}
+
+.decor5 {
+
+  mix-blend-mode: multiply;
+  height: 800px;
+  position: absolute;
+  width: 500px;
+  margin-top: -900px;
+  border-radius: 20px;
+  left: -5%;
+}
+
+.decor7 {
+  mix-blend-mode: multiply;
+  height: 1200px;
+  position: absolute;
+  width: 500px;
+  margin-top: -1000px;
+  border-radius: 20px;
+  left: 60%;
+}
+
+.decor6 {
+  mix-blend-mode: multiply;
+  height: 1200px;
+  position: absolute;
+  width: 500px;
+  margin-top: -1000px;
+  border-radius: 20px;
+  left: 60%;
+}
+
   #navbar-drive {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-variant: small-caps;
@@ -252,34 +339,47 @@ h1 {
   }
 
   .ferrari {
-    margin-top: -20px;
-
+    margin-top: -5px;
+    margin-left: 700px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100%;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    text-shadow: 5px 5px 15px black;
   }
 
   .kép1 {
+    mix-blend-mode: multiply;
     height: 300px;
     position: absolute;
     width: 600px;
-    margin-top: -500px;
+    margin-top: -800px;
     border-radius: 20px;
-    left: 60%;
-    border: 5px solid white;
+    left: 72%;
     cursor: pointer;
   }
 
   .kép2 {
-    height: 280px;
-    width: 480px;
-    margin-top: -300px;
+    mix-blend-mode: multiply;
+    height: 600px;
+    width: 600px;
+    margin-top: -550px;
     margin-bottom: -50px;
-    left: 37%;
+    left: 2%;
     border-radius: 30px;
     position: absolute;
-    border: 5px solid white;
     cursor: pointer;
   }
 
-
+.fersz {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100%;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 90px;
+    color: rgb(0, 0, 0);
+    text-shadow: 5px 5px 15px black;
+}
 
    .button1v:hover {
     transform: translateY(-3px);
@@ -298,6 +398,16 @@ h1 {
     width: 35px;
     height: 35px;
     vertical-align: middle;
+  }
+
+  .decor3 {
+  mix-blend-mode: multiply;
+  height: 600px;
+  position: absolute;
+  width: 630px;
+  margin-top: -550px;
+  border-radius: 20px;
+  left: 65%;
   }
 
   /*Második oldal*/
