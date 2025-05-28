@@ -423,11 +423,11 @@ h1 {
   }
 
   .alfa {
+    margin-top: -5px;
+    margin-left: 700px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 100%;
     font-weight: 600;
-    text-align: center;
-    margin-top: 20px;
     color: rgb(0, 0, 0);
     text-shadow: 5px 5px 15px black;
   }  
@@ -479,11 +479,11 @@ h1 {
   }
 
   .lamborghini {
+  margin-top: -5px;
+    margin-left: 700px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 100%;
     font-weight: 600;
-    text-align: center;
-    margin-top: 20px;
     color: rgb(0, 0, 0);
     text-shadow: 5px 5px 15px black;
   }  
@@ -546,11 +546,11 @@ h1 {
   }
 
   .mclaren {
+    margin-top: -5px;
+    margin-left: 700px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 100%;
     font-weight: 600;
-    text-align: center;
-    margin-top: 20px;
     color: rgb(0, 0, 0);
     text-shadow: 5px 5px 15px black;
   }  
@@ -603,11 +603,11 @@ h1 {
   }
 
   .porsche {
+    margin-top: -5px;
+    margin-left: 700px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 100%;
     font-weight: 600;
-    text-align: center;
-    margin-top: 20px;
     color: rgb(0, 0, 0);
     text-shadow: 5px 5px 15px black;
   }  
@@ -723,7 +723,38 @@ h1 {
 
 /*Modellek*/
 
+.decorm2 {
+  mix-blend-mode: multiply;
+  height: 600px;
+  position: absolute;
+  width: 700px;
+  margin-top: -900px;
+  border-radius: 20px;
+  left: 70%;
+
+}
+  .decorm {
+  mix-blend-mode: multiply;
+  height: 600px;
+  position: absolute;
+  width: 630px;
+  margin-top: -900px;
+  border-radius: 20px;
+  left: -5%;
+  }
+
+  .decorm3 {
+  mix-blend-mode: multiply;
+  height: 600px;
+  position: absolute;
+  width: 630px;
+  margin-top: -600px;
+  border-radius: 20px;
+  left: 60%;
+  }
+
 table, th ,tr, td {
+  color: rgb(0, 0, 0);
   margin: auto;
   margin-top: 20%;
   border: 2px solid black;
@@ -732,7 +763,7 @@ table, th ,tr, td {
   height: 20%;
   text-align: center;
   vertical-align: bottom;
-  background-color: #b2d9f0;
+  background-color: #7d99ad;
   margin-left: 100px;
   margin-top: 10%;
   font-family: cursive;
@@ -778,6 +809,36 @@ h3 {
 }
 /*Forrás*/
 
+  .decorm4 {
+  mix-blend-mode: multiply;
+  height: 600px;
+  position: absolute;
+  width: 630px;
+  margin-top: -600px;
+  border-radius: 20px;
+  left: 20%;
+  }
+
+   .decorm5 {
+  mix-blend-mode: multiply;
+  height: 600px;
+  position: absolute;
+  width: 630px;
+  margin-top: -600px;
+  border-radius: 20px;
+  left: 60%;
+  }
+  
+  .decorm6 {
+  mix-blend-mode: multiply;
+  height: 600px;
+  position: absolute;
+  width: 700px;
+  margin-top: -1000px;
+  border-radius: 20px;
+  left: 70%;
+  }
+
 .beszoveg2 {
   text-align: center;
   color: white;
@@ -791,7 +852,14 @@ h3 {
 }
 
 .forrás {
-  margin-top: -700px;
-}
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -800px;
+    margin-left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 110%;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    text-shadow: 5px 5px 15px black;
+  }  
 
   /*Gyártók*/
