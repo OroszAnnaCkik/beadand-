@@ -4,12 +4,14 @@
     background-image: url(kepek/wallpaper3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .háttérbody2 {
   background-image: url(https://wallpapercave.com/wp/wp12535963.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 
@@ -78,7 +80,7 @@ h1 {
   text-shadow: 5px 5px 15px black;
 }
 
-.icon {
+.img-fluid1 {
   mix-blend-mode: multiply;
   height: 400px;
   position: absolute;
@@ -113,7 +115,7 @@ h1 {
   text-shadow: 5px 5px 15px black;
 }
 
-.decor {
+.img-fluid2 {
   mix-blend-mode: multiply;
   height: 600px;
   position: absolute;
@@ -123,7 +125,7 @@ h1 {
   left: 60%;
 }
 
-.decor2 {
+.img-fluid3 {
   mix-blend-mode: multiply;
   height: 600px;
   position: absolute;
@@ -133,7 +135,7 @@ h1 {
   left: 80%;
 }
 
-.decor4 {
+.img-fluid4 {
   mix-blend-mode: multiply;
   height: 900px;
   position: absolute;
@@ -144,7 +146,7 @@ h1 {
 
 }
 
-.decor5 {
+.img-fluid12 {
 
   mix-blend-mode: multiply;
   height: 800px;
@@ -348,7 +350,7 @@ h1 {
     text-shadow: 5px 5px 15px black;
   }
 
-  .kép1 {
+  .img-fluid {
     mix-blend-mode: multiply;
     height: 300px;
     position: absolute;
@@ -400,7 +402,7 @@ h1 {
     vertical-align: middle;
   }
 
-  .decor3 {
+  .img-fluid11 {
   mix-blend-mode: multiply;
   height: 600px;
   position: absolute;
@@ -723,7 +725,7 @@ h1 {
 
 /*Modellek*/
 
-.decorm2 {
+.img-fluid9 {
   mix-blend-mode: multiply;
   height: 600px;
   position: absolute;
@@ -733,7 +735,7 @@ h1 {
   left: 70%;
 
 }
-  .decorm {
+  .img-fluid8 {
   mix-blend-mode: multiply;
   height: 600px;
   position: absolute;
@@ -743,7 +745,7 @@ h1 {
   left: -5%;
   }
 
-  .decorm3 {
+  .img-fluid10 {
   mix-blend-mode: multiply;
   height: 600px;
   position: absolute;
@@ -753,21 +755,30 @@ h1 {
   left: 60%;
   }
 
-table, th ,tr, td {
-  color: rgb(0, 0, 0);
-  margin: auto;
-  margin-top: 20%;
-  border: 2px solid black;
+.tableclass {
+  width: 90%;
+  max-width: 1000px;
   border-collapse: collapse;
-  width: 40%;
-  height: 20%;
-  text-align: center;
-  vertical-align: bottom;
-  background-color: #7d99ad;
-  margin-left: 100px;
-  margin-top: 10%;
-  font-family: cursive;
+  font-family: Arial, sans-serif;
+  color: #000000;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
+
+.table-wrapper {
+  display: flex;
+  justify-content: start;
+  margin: 30px auto;
+}
+.tableclass th,
+.tableclass td {
+  padding: 15px;
+  border: 1px solid #343a40;
+  text-align: center;
+  background-color: #a4c5e7;
+}
+
 th:nth-child(1) {
   background-color: cornflowerblue;
 }
@@ -809,7 +820,7 @@ h3 {
 }
 /*Forrás*/
 
-  .decorm4 {
+  .img-fluid5 {
   mix-blend-mode: multiply;
   height: 600px;
   position: absolute;
@@ -819,7 +830,7 @@ h3 {
   left: 20%;
   }
 
-   .decorm5 {
+   .img-fluid6 {
   mix-blend-mode: multiply;
   height: 600px;
   position: absolute;
@@ -829,7 +840,7 @@ h3 {
   left: 60%;
   }
   
-  .decorm6 {
+  .img-fluid7 {
   mix-blend-mode: multiply;
   height: 600px;
   position: absolute;
