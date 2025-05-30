@@ -200,6 +200,33 @@ h1 {
     position: fixed;
   }
 
+#but1 {
+  mix-blend-mode: multiply;
+ width: 50px;
+ height: 35px;
+}
+#but2 {
+  mix-blend-mode: multiply;
+ width: 50px;
+ height: 35px;
+}
+#but3 {
+  mix-blend-mode: multiply;
+ width: 50px;
+ height: 35px;
+}
+#but4 {
+  mix-blend-mode: multiply;
+ width: 50px;
+ height: 35px;
+}
+#but5 {
+  mix-blend-mode: multiply;
+ width: 50px;
+ height: 35px;
+}
+
+
   #buttons2 {
     border: none;
     display: inline-flex;
@@ -411,6 +438,8 @@ h1 {
   border-radius: 20px;
   left: 65%;
   }
+
+  
 
   /*Második oldal*/
 
